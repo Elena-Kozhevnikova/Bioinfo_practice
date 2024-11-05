@@ -43,6 +43,17 @@ These commands produce HTML files with QC reports:
 2. **Tile Quality Scores**: Issues might arise from transient or permanent problems on flowcell.
 3. **Per Base Sequence Content**: Warnings occur if base proportions are out of expected ranges.
 
+## Quality Control Reports
+
+### Per Tile Quality Control
+![Per Tile Quality Control](./Per_tile_QC.png)
+
+### Per Base Quality Control
+![Per Base Quality Control](./Per_base_QC.png)
+
+### Full Quality Control Report
+![Quality Control Report](./QC_report.png)
+
 ### Sequence Trimming
 Sequence trimming is performed using Trimmomatic with the following parameters:
 ```bash
