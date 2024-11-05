@@ -49,10 +49,10 @@ These commands produce HTML files with QC reports:
 <img src="./Per_tile_QC.png" alt="Per Tile Quality Control" width="600"/>
 
 ### Per Base Quality Control
-![Per Base Quality Control](./Per_base_QC.png)
+<img src="./Per_base_QC.png" alt="Per Base Quality Control" width="600"/>
 
 ### Full Quality Control Report
-![Quality Control Report](./QC_report.png)
+<img src="./QC_report.png" alt="Quality Control Report" width="600"/>
 
 ### Sequence Trimming
 Sequence trimming is performed using Trimmomatic with the following parameters:
