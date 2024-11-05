@@ -1,5 +1,3 @@
-Here's a beautifully formatted Markdown file for your lab journal that you can put on GitHub. It includes headings, bullet points, code blocks, and links to enhance readability and organization.
-
 ```markdown
 # Lab Journal: Practical Training in Bioinformatics
 **Author:** Elena Kozhevnikova  
