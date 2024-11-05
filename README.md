@@ -137,8 +137,8 @@ snpEff ann -dataDir ~/bio/project1/data k12 VarScan_results.vcf > VarScan_result
 
 ### Final Results
 Annotated SNP results indicate:
-- **6 Variant Positions Reported**
- | **Chromosome**  | **Position** | **Ref** | **Alt** | **Filter** | **ADP** | **WT** | **HET** | **HOM** | **NC** | **Annotation**                                                  |
+**6 Variant Positions Reported**
+| **Chromosome**  | **Position** | **Ref** | **Alt** | **Filter** | **ADP** | **WT** | **HET** | **HOM** | **NC** | **Annotation**                                                  |
 |------------------|--------------|---------|---------|------------|---------|--------|---------|---------|--------|------------------------------------------------------------------|
 | NC_000913.3      | 93043        | C       | G       | PASS       | 17      | 0      | 0       | 1       | 0      | G|missense_variant|MODERATE|ftsI|b0084|transcript         |
 | NC_000913.3      | 482698       | T       | A       | PASS       | 17      | 0      | 0       | 1       | 0      | A|missense_variant|MODERATE|acrB|b0462|transcript        |
