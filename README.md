@@ -46,7 +46,7 @@ These commands produce HTML files with QC reports:
 ## Quality Control Reports
 
 ### Per Tile Quality Control
-![Per Tile Quality Control](./Per_tile_QC.png)
+<img src="./Per_tile_QC.png" alt="Per Tile Quality Control" width="600"/>
 
 ### Per Base Quality Control
 ![Per Base Quality Control](./Per_base_QC.png)
