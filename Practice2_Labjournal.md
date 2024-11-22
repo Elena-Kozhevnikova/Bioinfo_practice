@@ -1,5 +1,3 @@
-Certainly! Here's the text you provided, formatted into a clean and organized Markdown document with titles, subtitles, and tables where appropriate. You can copy and paste this directly into a Markdown file (`.md` extension) on GitHub or any other Markdown editor.
-
 ```markdown
 # Viral Data Analysis
 
