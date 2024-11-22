@@ -259,6 +259,9 @@ Create three commands to extract the required fields and save them to separate f
 ```bash
 awk '$1 !~ /^#/ && $5 != "." { print $2, $3, $4, $5, $10 }' control_sample1_variants.vcf > filtered_variants_control1.csv
 ```
+<table>
+    <tr>
+        <td>
 
 ### Control File 1 Summary
 | Position | Original | Alternative | Frequency |
@@ -292,6 +295,10 @@ awk '$1 !~ /^#/ && $5 != "." { print $2, $3, $4, $5, $10 }' control_sample1_vari
 | 1460     | A        | G           | 0.32%     |
 | 1523     | A        | G           | 0.27%     |
 
+        </td>
+
+        <td>
+
 ### Control File 2 Summary
 | Position | Original | Alternative | Frequency |
 |----------|----------|-------------|-----------|
@@ -319,6 +326,10 @@ awk '$1 !~ /^#/ && $5 != "." { print $2, $3, $4, $5, $10 }' control_sample1_vari
 | 1517     | A        | G           | 0.30%     |
 | 1520     | T        | C           | 0.27%     |
 | 1600     | T        | C           | 0.37%     |
+
+        </td>
+
+        <td>
 
 ### Control File 3 Summary
 | Position | Original | Alternative | Frequency |
@@ -349,6 +360,10 @@ awk '$1 !~ /^#/ && $5 != "." { print $2, $3, $4, $5, $10 }' control_sample1_vari
 | 1421     | A        | G           | 0.35%     |
 | 1460     | A        | G           | 0.34%     |
 | 1482     | A        | G           | 0.26%     |
+
+        </td>
+    </tr>
+</table>
 
 
 ##Final table of comparison:
