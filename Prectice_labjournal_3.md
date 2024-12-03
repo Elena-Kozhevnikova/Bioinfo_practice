@@ -1,14 +1,12 @@
 
 ```markdown
-**# Bioinformatics Workflow for E. coli X Assembly**
+# Bioinformatics Workflow for E. coli X Assembly
 
 ## 1. Downloading and Checking Files
 
 ### Libraries to Download
 
-## Downloading Libraries from the TY2482 Sample
-
-Download three libraries from the TY2482 sample with the following insert sizes and orientation:
+The following libraries from the TY2482 sample will be downloaded, categorized by their insert sizes and sequencing orientations:
 
 | Library ID   | Type         | Insert Size | Size       |
 |--------------|--------------|-------------|------------|
@@ -18,7 +16,7 @@ Download three libraries from the TY2482 sample with the following insert sizes 
 
 ### Download Commands
 
-Use the following commands to download the files:
+Use the following commands to download the required FASTQ files:
 
 ```bash
 wget https://d28rh4a8wq0iu5.cloudfront.net/bioinfo/SRR292678sub_S1_L001_R1_001.fastq.gz
@@ -27,8 +25,6 @@ wget https://d28rh4a8wq0iu5.cloudfront.net/bioinfo/SRR292770_S1_L001_R1_001.fast
 wget https://d28rh4a8wq0iu5.cloudfront.net/bioinfo/SRR292678sub_S1_L001_R2_001.fastq.gz 
 wget https://d28rh4a8wq0iu5.cloudfront.net/bioinfo/SRR292862_S2_L001_R1_001.fastq.gz
 wget https://d28rh4a8wq0iu5.cloudfront.net/bioinfo/SRR292770_S1_L001_R2_001.fastq.gz
-```
-
 ## Quality Control
 
 ### FastQC Installation
