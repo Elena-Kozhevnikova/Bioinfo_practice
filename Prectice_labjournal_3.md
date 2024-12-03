@@ -1,11 +1,12 @@
 
 ```markdown
 # Bioinformatics Workflow for E. coli X Assembly
+```
 
 ### 1. Downloading and Checking Files
 
 ### Libraries to Download
-```
+
 
 The following libraries from the TY2482 sample will be downloaded, categorized by their insert sizes and sequencing orientations:
 
