@@ -6,13 +6,15 @@
 
 ### Libraries to Download
 
+## Downloading Libraries from the TY2482 Sample
+
 Download three libraries from the TY2482 sample with the following insert sizes and orientation:
 
 | Library ID   | Type         | Insert Size | Size       |
 |--------------|--------------|-------------|------------|
-| SRR292678    | Paired End   | 470 bp      | 400 Mb each |
-| SRR292862    | Mate Pair    | 2 kb        | 200 Mb each |
-| SRR292770    | Mate Pair    | 6 kb        | 200 Mb each |
+| SRR292678    | Paired End   | 470 bp      | 400 Mb each|
+| SRR292862    | Mate Pair    | 2 kb        | 200 Mb each|
+| SRR292770    | Mate Pair    | 6 kb        | 200 Mb each|
 
 ### Download Commands
 
