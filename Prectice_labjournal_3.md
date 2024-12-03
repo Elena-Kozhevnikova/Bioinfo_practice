@@ -17,7 +17,27 @@ The following libraries from the TY2482 sample will be downloaded, categorized b
 ### Download Commands
 
 Use the following commands to download the required FASTQ files:
+```bash
+wget https://d28rh4a8wq0iu5.cloudfront.net/bioinfo/SRR292678sub_S1_L001_R1_001.fastq.gz
+wget https://d28rh4a8wq0iu5.cloudfront.net/bioinfo/SRR292862_S2_L001_R2_001.fastq.gz
+wget https://d28rh4a8wq0iu5.cloudfront.net/bioinfo/SRR292770_S1_L001_R1_001.fastq.gz
+wget https://d28rh4a8wq0iu5.cloudfront.net/bioinfo/SRR292678sub_S1_L001_R2_001.fastq.gz 
+wget https://d28rh4a8wq0iu5.cloudfront.net/bioinfo/SRR292862_S2_L001_R1_001.fastq.gz
+wget https://d28rh4a8wq0iu5.cloudfront.net/bioinfo/SRR292770_S1_L001_R2_001.fastq.gz
+## Quality Control
 
+### FastQC Installation
+
+Download FastQC software via `apt-get` and apply the following commands for quality control:
+
+```bash
+fastqc -o ~/bio/project3/ ~/bio/project3/SRR292678sub_S1_L001_R1_001.fastq.gz
+fastqc -o ~/bio/project3/ ~/bio/project3/SRR292678sub_S1_L001_R2_001.fastq.gz
+fastqc -o ~/bio/project3/ ~/bio/project3/SRR292770_S1_L001_R1_001.fastq.gz
+fastqc -o ~/bio/project3/ ~/bio/project3/SRR292770_S1_L001_R2_001.fastq.gz
+fastqc -o ~/bio/project3/ ~/bio/project3/SRR292862_S2_L001_R1_001.fastq.gz
+fastqc -o ~/bio/project3/ ~/bio/project3/SRR292862_S2_L001_R2_001.fastq.gz
+```
 
 
 ### Generated HTML Files
