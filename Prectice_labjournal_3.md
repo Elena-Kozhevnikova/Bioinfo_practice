@@ -1,4 +1,3 @@
-Here's a Markdown document version of your text, formatted with headings, subheadings, and tables for better readability:
 
 ```markdown
 # Bioinformatics Workflow for E. coli X Assembly
@@ -266,4 +265,3 @@ progressiveMauve --output=alignment_output.xmfa ecoli55989.fasta scaffolds.fasta
 ```
 ```
 
-This formatted document is structured for readability, with sections, tables, and commands clearly presented. You can save this as a `.md` file and view it using any Markdown viewer or editor.
