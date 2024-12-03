@@ -5,6 +5,7 @@
 ### 1. Downloading and Checking Files
 
 ### Libraries to Download
+```
 
 The following libraries from the TY2482 sample will be downloaded, categorized by their insert sizes and sequencing orientations:
 
@@ -24,6 +25,8 @@ wget https://d28rh4a8wq0iu5.cloudfront.net/bioinfo/SRR292770_S1_L001_R1_001.fast
 wget https://d28rh4a8wq0iu5.cloudfront.net/bioinfo/SRR292678sub_S1_L001_R2_001.fastq.gz 
 wget https://d28rh4a8wq0iu5.cloudfront.net/bioinfo/SRR292862_S2_L001_R1_001.fastq.gz
 wget https://d28rh4a8wq0iu5.cloudfront.net/bioinfo/SRR292770_S1_L001_R2_001.fastq.gz
+```
+
 ## Quality Control
 
 ### FastQC Installation
