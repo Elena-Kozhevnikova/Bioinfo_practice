@@ -2,7 +2,7 @@
 ```markdown
 # Bioinformatics Workflow for E. coli X Assembly
 
-## 1. Downloading and Checking Files
+### 1. Downloading and Checking Files
 
 ### Libraries to Download
 
