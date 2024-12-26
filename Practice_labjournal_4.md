@@ -390,6 +390,13 @@ hmmscan --domtblout output.domtbl Pfam-A.hmm ~/bio/project4/extracted_unique_que
 | g5616.t1       | Matches: 5 (g5616.t1, E-value: 1.5e-11, Bit Score: 44.2)              | Nuclear                 | CBM_14 / PF01607.23 / Chitin binding Peritrophin-A domain            |
 | g13530.t1      | Matches: 2 (g13530.t1, E-value: 0.002, Bit Score: 30.8)              | Nuclear                 | -                                                                     |
 
+The only interesting candidate remaining is g13530.t1
+Let's extract its amino acid sequence:
+
+```bash
+awk '/^>g13530\.t1/{flag=1; next} /^>/{flag=0} flag' augustus.whole.aa
+```
+
 ## Conclusion
 
 This project aims to explore the unique adaptations of tardigrades through genomic and proteomic analyses. Their exceptional resilience to extreme conditions not only provides insights into their biology but may also have implications for biotechnology and medicine.
