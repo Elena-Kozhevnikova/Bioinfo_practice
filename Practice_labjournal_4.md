@@ -352,6 +352,35 @@ hmmscan --domtblout output.domtbl Pfam-A.hmm ~/bio/project4/extracted_unique_que
 | TF_AP-2         | PF03299.13      | g15484.t1       | 0.54        | 10.1      | Transcription factor AP-2                   |
 | Mucin            | PF01456.16      | g15484.t1       | 5.2         | 7.0       | Mucin-like glycoprotein                     |
 
+
+### After bringing the data data from all three tables together, the final result is this:
+
+| **Gene ID**    | **Query ID / E-value / Bit Score**                                       | **Nuclear Localization** | **Domain / E-value / Description**                                     |
+|----------------|-------------------------------------------------------------------------|-------------------------|-----------------------------------------------------------------------|
+| g2203.t1       | Matches: 3 (g2203.t1, E-value: 3.5e-42, Bit Score: 145.0)               | Nuclear                 | Glyco_hydro_31 / PF01055.25 / Glycosyl hydrolases family 31          |
+|                |                                                                         |                         | Roc / PF08477.12 / Ras of Complex, Roc, domain of DAPkinase          |
+| g3428.t1       | Matches: 5 (g3428.t1, E-value: 1.1e-14, Bit Score: 54.5)               | Nuclear                 | EF-hand_7 / PF13499.5 / EF-hand domain pair                           |
+|                |                                                                         |                         | EF-hand_1 / PF00036.31 / EF hand                                     |
+|                |                                                                         |                         | UPF0154 / PF03672.12 / Uncharacterised protein family (UPF0154)      |
+|                |                                                                         |                         | SurA_N_2 / PF13623.5 / SurA N-terminal domain                         |
+| g5237.t1       | Matches: 1 (g5237.t1, E-value: 0.004, Bit Score: 29.6)                  | Nuclear                 | Toxin_TOLIP / PF00087.20 / Snake toxin and toxin-like protein         |
+| g5467.t1       | Matches: 2 (g5467.t1, E-value: 1e-11, Bit Score: 44.7)                  | Nuclear                 | CBM_14 / PF01607.23 / Chitin binding Peritrophin-A domain            |
+| g5502.t1       | Matches: 3 (g5502.t1, E-value: 3.1e-11, Bit Score: 43.2)                | Nuclear                 | CBM_14 / PF01607.23 / Chitin binding Peritrophin-A domain            |
+|                |                                                                         |                         | Ldl_recept_a / PF00057.17 / Low-density lipoprotein receptor domain class A |
+| g5616.t1       | Matches: 5 (g5616.t1, E-value: 1.5e-11, Bit Score: 44.2)                | Nuclear                 | CBM_14 / PF01607.23 / Chitin binding Peritrophin-A domain            |
+| g10513.t1      | Matches: 3 (g10513.t1, E-value: 0.003, Bit Score: 30.0)                 | Nuclear                 | -                                                                     |
+| g10514.t1      | Matches: 3 (g10514.t1, E-value: 0.97, Bit Score: 22.7)                  | Nuclear                 | -                                                                     |
+| g11513.t1      | Matches: 2 (g11513.t1, E-value: 8.3, Bit Score: 20.0)                   | Nuclear                 | -                                                                     |
+| g11806.t1      | Matches: 1 (g11806.t1, E-value: 3.9, Bit Score: 21.2)                   | Nuclear                 | -                                                                     |
+| g11960.t1      | Matches: 1 (g11960.t1, E-value: 3.5, Bit Score: 21.6)                   | Nuclear                 | -                                                                     |
+| g13530.t1      | Matches: 2 (g13530.t1, E-value: 0.002, Bit Score: 30.8)                 | Nuclear                 | -                                                                     |
+| g14472.t1      | Matches: 1 (g14472.t1, E-value: 0.002, Bit Score: 30.8)                 | Nuclear                 | -                                                                     |
+| g15484.t1      | Matches: 3 (g15484.t1, E-value: 0.54, Bit Score: 10.1)                  | Nuclear                 | TF_AP-2 / PF03299.13 / Transcription factor AP-2                      |
+|                |                                                                         |                         | Mucin / PF01456.16 / Mucin-like glycoprotein                         |
+| g16318.t1      | Matches: 1 (g16318.t1, E-value: 4.9, Bit Score: 21.2)                   | Nuclear                 | -                                                                     |
+| g16368.t1      | Matches: 1 (g16368.t1, E-value: 5.2, Bit Score: 20.8)                   | Nuclear                 | -                                                                     |
+
+
 ## Conclusion
 
 This project aims to explore the unique adaptations of tardigrades through genomic and proteomic analyses. Their exceptional resilience to extreme conditions not only provides insights into their biology but may also have implications for biotechnology and medicine.
