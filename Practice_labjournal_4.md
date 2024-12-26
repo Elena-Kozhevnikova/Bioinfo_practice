@@ -380,6 +380,15 @@ hmmscan --domtblout output.domtbl Pfam-A.hmm ~/bio/project4/extracted_unique_que
 | g16318.t1      | Matches: 1 (g16318.t1, E-value: 4.9, Bit Score: 21.2)                   | Nuclear                 | -                                                                     |
 | g16368.t1      | Matches: 1 (g16368.t1, E-value: 5.2, Bit Score: 20.8)                   | Nuclear                 | -                                                                     |
 
+### From these we only select proteins with a potential signal peptide:
+
+| **Gene ID**    | **Query ID / E-value / Bit Score**                                    | **Nuclear Localization** | **Domain / E-value / Description**                                     |
+|----------------|----------------------------------------------------------------------|-------------------------|-----------------------------------------------------------------------|
+| g5467.t1       | Matches: 2 (g5467.t1, E-value: 1e-11, Bit Score: 44.7)               | Nuclear                 | CBM_14 / PF01607.23 / Chitin binding Peritrophin-A domain            |
+| g5502.t1       | Matches: 3 (g5502.t1, E-value: 3.1e-11, Bit Score: 43.2)             | Nuclear                 | CBM_14 / PF01607.23 / Chitin binding Peritrophin-A domain            |
+|                |                                                                      |                         | Ldl_recept_a / PF00057.17 / Low-density lipoprotein receptor domain class A |
+| g5616.t1       | Matches: 5 (g5616.t1, E-value: 1.5e-11, Bit Score: 44.2)              | Nuclear                 | CBM_14 / PF01607.23 / Chitin binding Peritrophin-A domain            |
+| g13530.t1      | Matches: 2 (g13530.t1, E-value: 0.002, Bit Score: 30.8)              | Nuclear                 | -                                                                     |
 
 ## Conclusion
 
