@@ -390,7 +390,7 @@ hmmscan --domtblout output.domtbl Pfam-A.hmm ~/bio/project4/extracted_unique_que
 | g5616.t1       | Matches: 5 (g5616.t1, E-value: 1.5e-11, Bit Score: 44.2)              | Nuclear                 | CBM_14 / PF01607.23 / Chitin binding Peritrophin-A domain            |
 | g13530.t1      | Matches: 2 (g13530.t1, E-value: 0.002, Bit Score: 30.8)              | Nuclear                 | -                                                                     |
 
-### The interesting candidates are g13530.t1 and g3428.t1
+### The interesting candidate is g13530.t1
 
 The first one is a completely unknown protein. Let's extract its amino acid sequence:
 
