@@ -282,6 +282,7 @@ Next, we submit the data to the domain prediction service available at DTU Healt
 ## TargetP Predictions
 
 ### Results of Domain Prediction
+SP	This is also a numerical score that indicates the probability of the protein containing a signal peptide. Values close to 1 suggest strong evidence for a signal peptide, implying it may be directed towards the secretory pathway.
 
 | **ID**      | **Prediction** | **OTHER** | **SP**    | **mTP**   | **CS Position**                     |
 |-------------|----------------|-----------|-----------|-----------|-------------------------------------|
