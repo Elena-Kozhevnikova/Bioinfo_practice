@@ -390,12 +390,19 @@ hmmscan --domtblout output.domtbl Pfam-A.hmm ~/bio/project4/extracted_unique_que
 | g5616.t1       | Matches: 5 (g5616.t1, E-value: 1.5e-11, Bit Score: 44.2)              | Nuclear                 | CBM_14 / PF01607.23 / Chitin binding Peritrophin-A domain            |
 | g13530.t1      | Matches: 2 (g13530.t1, E-value: 0.002, Bit Score: 30.8)              | Nuclear                 | -                                                                     |
 
-The only interesting candidate remaining is g13530.t1
-Let's extract its amino acid sequence:
+### The interesting candidates are g13530.t1 and g3428.t1
+
+The first one is a completely unknown protein. Let's extract its amino acid sequence:
 
 ```bash
 awk '/^>g13530\.t1/{flag=1; next} /^>/{flag=0} flag' augustus.whole.aa
 ```
+We then align it in blast, and retrieve no putative domains:
+![image](https://github.com/user-attachments/assets/77cf162b-6ef1-4ff8-9daf-c55b45cf9765)
+
+It partially aligng to another Tardigrade Hypsibius exemplaris, whic is either a philogenetic relation, or possibly a common adaptive feature.
+
+This protein might be the one with the unknown function and does not align with known proteins or their domains. So that it might serve a candidate to search for a completely novel adaptive mechanism observed in Tardigrades. 
 
 ## Conclusion
 
