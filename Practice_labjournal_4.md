@@ -1,6 +1,4 @@
-Here’s a well-organized Markdown documentation that includes headings, sections, and tables based on the supplied text. This format is compatible with GitHub Notebook:
 
-```markdown
 # Tardigrades: The Resilient Water Bears
 
 ## Introduction
