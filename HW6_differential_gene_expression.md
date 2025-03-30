@@ -217,6 +217,10 @@ ggplot(plot_data, aes(x = log2FC, y = negLog10FDR)) +
   ggsave("volcano_clean.pdf", width = 6, height = 5)
 ```
 
+![image](https://github.com/user-attachments/assets/3521962f-7158-48fd-81f7-76a43a69d9a6)
+
+![image](https://github.com/user-attachments/assets/96e7c3d0-818d-40d9-a893-9cb9a43e38c9)
+
 ## Gene Ontology Analysis
 Then we used gene names to analyze them for gene ontology using the online service ShinyGO ([link](https://bioinformatics.sdstate.edu/go/)). The gene names were extracted as follows:
 
